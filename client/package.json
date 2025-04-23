@@ -1,0 +1,15 @@
+{
+  "name": "udp-game-client",
+  "version": "1.0.0",
+  "description": "UDP Game Client",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
+    "electron": "^24.8.8",
+    "node-rsa": "^1.1.1"
+  }
+}

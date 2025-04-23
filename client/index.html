@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Shooter</title>
+    <style>
+        #gameArea {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            border: 1px solid black;
+            display: none; /* Başlangıçta gizli */
+        }
+        .player {
+            width: 40px;  /* Genişlik ve yükseklik artırıldı */
+            height: 40px;
+            background-color: red;
+            position: absolute;
+        }
+        .bullet {
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enter Your Name</h1>
+    <form id="nameForm">
+        <input type="text" id="nameInput" required>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="gameArea"></div>
+    <script src="renderer.js"></script>
+</body>
+</html>
